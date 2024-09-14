@@ -7,9 +7,11 @@ public class ContagemDois {
 	public static void main(String[] args) {
 		int n = 0;
 		
-		while (n >= 18) {
-			n++;
-			System.out.println(n);
+		while (n <= 18) {
+			
+			System.out.print(n + " ");
+			n+=3;
 		}
+		System.out.println("Acabou!");
 	}
 }
